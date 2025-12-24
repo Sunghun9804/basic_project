@@ -17,3 +17,7 @@ def step_one():
 @app.get("/two")
 def step_two():
     return {"two": "two"}
+
+@app.get("/three")
+def step_three():
+    return {"three": "three"}
